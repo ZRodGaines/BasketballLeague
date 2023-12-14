@@ -1,0 +1,33 @@
+Project Participants: Zaneer Rodriquez-Gaines
+
+Title: Basketball Leauge Database
+
+Executive Summary:
+
+this project will be used to create a manipluate a database of an basketball leauge. In this database all the most important aspects will be included.
+Each basketball team will have their indentifiers that allows one to distinguish between them(name, city, colors). All the players are each team will
+be tracked with all their identifiers as well. Finally  each player's stats will also be tracked with their respective values allowing for a system
+in which one can easily search to find each player, their team, and what their stats look like.
+
+Initial Features:
+
+ERD
+
+Entity Ideas: Players, Teams, Stats
+Operation Ideas: 
+ Create/Add players to a team (POST,player)
+ Update players (PUT,player)
+ Create/Add Teams into the leauge (POST,team)
+ Update Team (PUT,team)
+ Search for all players (GET,player)
+ Search for all Teams (GET,team)
+ Remove Team(DELETE,team)
+ Remove player(DELETE,player)
+ Create/Add a Stat(POST,stat)
+ Update a Stat(PUT,stat)
+ Retreive Stats from player(GET,stat) Redundant
+ 
+
+Stretch Goals (to be completed if time allows, or after graduation):
+
+Trading players from team to team
