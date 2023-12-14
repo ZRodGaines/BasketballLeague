@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: basketball
+      password: basketball
+      url: jdbc:mysql://localhost:3306/basketball_leauge
+
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+
+   sql:
+      init:
+         mode: always
